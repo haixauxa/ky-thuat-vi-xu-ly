@@ -1,0 +1,27 @@
+# Build output (Makefile / arm-none-eabi-gcc)
+/build/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+*.lst
+
+# Junk
+build.log
+proj/build.log
+
+# Keil RTE backup files
+*.base@*
+
+# Keil MDK build artifacts (giữ lại .uvprojx)
+proj/Objects/
+proj/Listings/
+proj/DebugConfig/
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
+*.crf
+*.axf
